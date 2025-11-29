@@ -146,7 +146,7 @@ def run_qualitative_analysis():
                 genai.configure(api_key=gemini_api_key)
                 
                 # 画像処理に特化した軽量モデルを使用
-                model = genai.GenerativeModel('gemini-1.5-flash-001')
+                model = genai.GenerativeModel('gemini-2.0-flash')
 
                 # プロンプトの作成
                 prompt = """

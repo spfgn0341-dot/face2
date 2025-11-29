@@ -5,3 +5,4 @@ tf-keras
 numpy
 pillow
 pandas
+google-generativeai
